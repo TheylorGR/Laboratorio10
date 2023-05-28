@@ -1,0 +1,84 @@
+*{
+    font-family: 'Poppins', sans serif;
+}
+body{
+    background-image: url("Albedo\ Susbedo.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-color: rgb(100,100,100);
+    background-blend-mode: soft-light;
+}
+.caja{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+}
+.contenedor{
+    width:350px;
+    display: flex;
+    flex-direction: column;
+    padding: 0 15px 0 15px;
+}
+span{
+    color:#D4ADFC;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0 10px 0;
+}
+.contenido{
+    display: flex;
+    flex-direction: column;
+}
+.input{
+    height: 45px;
+    width: 87%;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    color:#D4ADFC;
+    padding: 0 0 0 42px;
+    background: rgb(29, 38, 125);
+}
+i{
+    position: relative;
+    top:-31px;
+    left: 17px;
+    color:#D4ADFC;
+}
+::-webkit-input-placeholder{
+    color: #D4ADFC;
+}
+.submit{
+    border: none;
+    border-radius: 30px;
+    font-size: 15px;
+    height: 45px;
+    outline: none;
+    width: 100%;
+    background: rgba(255, 255, 255,0.7);
+    cursor:pointer;
+    transition: .3s;
+}
+.submit:hover{
+    box-shadow: 1px 5px 7px 1px rgb(29, 38, 125);
+}
+.boton{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: small;
+    color: #D4ADFC;
+    margin-top: 10px;
+}
+.izquierda{
+    display: flex;
+}
+label a{
+    color:#D4ADFC;
+    text-decoration: none;
+}
+
