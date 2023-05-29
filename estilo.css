@@ -18,9 +18,14 @@ body{
 }
 .contenedor{
     width:350px;
+    height: 300px;
     display: flex;
     flex-direction: column;
-    padding: 0 15px 0 15px;
+    padding: 0 20px 0 15px;
+    background-color: #ffffff05;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(25px);
+    border-radius: 15px;
 }
 span{
     color:#D4ADFC;
